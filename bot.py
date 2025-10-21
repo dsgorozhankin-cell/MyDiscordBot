@@ -13,9 +13,6 @@ import pytesseract
 # === Вказуємо правильний шлях до Tesseract ===
 pytesseract.pytesseract.tesseract_cmd = r"C:\Users\user\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"
 
-# Токен твого бота
-TOKEN = "MTQxNDg5MjQ3NjU4NTQ4MDI3Nw.GZwaiM.XY0hubTfvb15U7O_Ejxt0Aon0owC9d7pm7I9LA"
-
 intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
