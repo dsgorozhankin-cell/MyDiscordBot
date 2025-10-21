@@ -9,6 +9,10 @@ import os
 from io import BytesIO
 from PIL import Image, ImageSequence
 import pytesseract
+import os
+TOKEN = os.getenv("TOKEN")
+bot.run(TOKEN)
+
 
 # === Вказуємо правильний шлях до Tesseract ===
 pytesseract.pytesseract.tesseract_cmd = r"C:\Users\user\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"
